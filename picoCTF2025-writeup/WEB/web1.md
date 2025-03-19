@@ -7,4 +7,4 @@ The first thing I saw was the word cookie in the challenge name so I went into D
 Next let's try to decode it and we will have the first flag: 
 ![image](https://github.com/user-attachments/assets/baf56585-ea98-4aed-91ff-7ad5a2e2cef9)
 problem solved:
-picoCTF{c00k1e_m0nster_l0ves_c00kies_DE7A5E76}
+picoCTF{c00k1e_m0nster_l0ves_c00kies_DE7A5E76} 
