@@ -18,7 +18,7 @@ we will download the entire .git repo from the server to the local machine using
 Next, use the command:
 ./gitdumper.sh http://23.179.17.40:58002/.git/ /tmp/git-leak/
 we will download all of this .git and go to the newly created directory:
-cd /tmp/git-leak/
+cd /tmp/git-leak/ and 
 git checkout .
 
 ![image](https://github.com/user-attachments/assets/ff1fec4f-4ed8-41fe-9ffe-b4007797ea73)
