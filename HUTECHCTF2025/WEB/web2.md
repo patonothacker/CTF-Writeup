@@ -1,7 +1,9 @@
 # D3l3t3 p4g3
-![alt text](image-9.png)
+<img width="1208" height="859" alt="image-9" src="https://github.com/user-attachments/assets/7456d228-e875-4a60-a502-647d0cd141cf" />
 
-![alt text](image-10.png)
+
+<img width="2423" height="1045" alt="image-10" src="https://github.com/user-attachments/assets/8b69f59c-8371-44b3-b327-27ad41cd5b09" />
+
 
 Đầu tiên theo như mô tả chúng ta phải xóa trang web này, nhưng khi truy cập trang và chúng ta thấy là ```chỉ có admin mới có quyền xóa```.
 Hmm vậy làm thế nào để trở thành admin và xóa luôn trang web này?
@@ -29,25 +31,29 @@ Bạn có thể xem video trên youtube hoặc học ở ([cach sai BUrp](https:
 
 sau khi sử dụng browser của burp và bắt request lại:
 
-![alt text](image-11.png)
+
 
 Đây là request của mình và hãy nhìn hàng đầu tiên nó đang sử dụng method ```GET``` tức là nó đang yêu cầu website trả về dữ liệu.
 Mình muốn "xóa" web mình sẽ thay ```GET``` bằng ```DELETE```
-![alt text](image-12.png)
+
 
 Sau khi xóa mình nhận được một thông báo 
-![alt text](image-13.png)
+
 
 Như trang web đã nói "chỉ có admin mới xóa được" vậy mình chỉ là 1 user ```thường``` vào trang web, làm thế nào để thành 1 user ```admin```
 
 Phân tích kĩ lại các request mình để ý đoạn request này
-![alt text](image-14.png)
+<img width="1092" height="520" alt="image-14" src="https://github.com/user-attachments/assets/cad2c800-31f8-4097-8a60-c386acb678a7" />
+
 
 Ở hàng số 5 có dòng ```X-Role: user```. Có vẻ như Backend xác thực Role bằng đoạn này và sẽ ra sao nếu mình chỉnh nó thành ```X-Role: admin``` với method là ```DELETE``` theo đúng yêu cầu của bài.
-![alt text](image-15.png)
+<img width="1087" height="499" alt="image-15" src="https://github.com/user-attachments/assets/e0e14695-31d8-40ff-8b26-174f0a5366e2" />
+
 
 ##### OK vậy là mình đã xóa trang web và tránh Hallow truy cập vào nó để xem lịch sử.
 
-![alt text](image-16.png)
+<img width="1590" height="271" alt="image-16" src="https://github.com/user-attachments/assets/affca278-1105-4cf8-b3b0-8097cab143e9" />
+
+
 
 problem solved: ```HUTECHCTF{I_AM_A_BIG_fan_OF_J97_HOW_ABOUT_YOU???}```
