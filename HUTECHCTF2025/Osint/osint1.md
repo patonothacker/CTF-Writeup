@@ -6,14 +6,17 @@
 
 ![z7259177270704_f023f108cd978e3ec8916af34da56e0a](https://github.com/user-attachments/assets/46165439-f462-46e2-b2e1-0e30443dcc2e)
 
+<img width="160" height="133" alt="ảnh" src="https://github.com/user-attachments/assets/a7e1a831-9309-473f-825b-59e798a76846" />
+
 Đầu tiên theo đề bài ta cần tìm tên quán trước.
-Khi nhìn vào ảnh lần đầu và zoom bự ra tuy là hơi khó nhìn nhưng kĩ 1 tí ta có thể đoán tên của quán caffe này là: ```QQ Coffee & Tea``` này
+Khi nhìn vào ảnh lần đầu và zoom bự ra tuy là hơi khó nhìn nhưng kĩ 1 tí ta có thể đoán tên của quán caffe này là: ```QQ Coffee & Tea```
 
 
 
 thử tra trên google thì đúng là có tên này thật sau đó check ảnh và video có 1 vài video có cái li nhựa với dòng chữ rất giống ảnh đề cho
 
-<img width="498" height="447" alt="ảnh" src="https://github.com/user-attachments/assets/467b9326-5a57-4768-9bc2-891b16aa0ae3" />
+
+
 
 
 <img width="622" height="646" alt="ảnh" src="https://github.com/user-attachments/assets/07113d14-a4db-4e95-9126-6b9e711aac89" />
