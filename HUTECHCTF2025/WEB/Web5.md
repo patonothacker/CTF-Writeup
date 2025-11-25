@@ -1,5 +1,6 @@
 # SAFE WEB
-![alt text](image-41.png)
+<img width="2795" height="1185" alt="image-41" src="https://github.com/user-attachments/assets/73eaaf5e-c81e-4539-8c56-82bb22819fa3" />
+
 
 Đầu tiên khi mới vào và thấy rất nhiều chức năng và có cả endpoint /admin nữa nhưng theo gợi ý đề bài và tên bài ```trang web này không có lỗ hỏng```
 Ban đầu mình cũng không tin và test nát cái trang này nhưng đúng là nó không có lỗ hỏng thật vậy chúng ta phải làm như nào.
@@ -18,16 +19,19 @@ localhost: host trang web mà bạn muốn test
 -p 0-11000: quét từ cổng 0 tới 11000
 ```
 sau khi quét nó ra:
-![alt text](image-42.png)
+<img width="1080" height="162" alt="image-42" src="https://github.com/user-attachments/assets/62cd58cf-d66e-4fa7-ad8e-1da6613882d7" />
+
 
 chúng ta phát hiện 1 port mới là 10000 với version khá cũ là 2.4.49 hãy vào port này thử
-![alt text](image-43.png)
+<img width="1064" height="514" alt="image-43" src="https://github.com/user-attachments/assets/b3004f05-9086-42e6-97c5-941a75ad1688" />
+
 
 có vẻ như trang web này bị lỗi và có 1 link troll nhưng để ý kĩ 1 tí nó trả về 200 mà chứ có lỗi như web nói đâu, vậy là nghi nghi ở đây
 
 tiếp theo mình thử research port của trang web này là 10000 và xem có gì khai thác được không.
 
-![alt text](image-44.png)
+<img width="978" height="744" alt="image-44" src="https://github.com/user-attachments/assets/df2774a3-451a-4700-949b-96d1f8cac19e" />
+
 
 Ôi mình thấy cả CVE([CVE](https://github.com/blackn0te/Apache-HTTP-Server-2.4.49-2.4.50-Path-Traversal-Remote-Code-Execution)) cho cái port này 
 Vậy nó có thể dính CVE-2021-41773 & CVE-2021-42013
@@ -170,12 +174,14 @@ python3 exploit.py 127.0.0.1 8080 file '/etc/passwd'
 ```
 ok thử RCE xem
 
-![alt text](image-45.png)
+<img width="2483" height="844" alt="image-45" src="https://github.com/user-attachments/assets/d90bcc95-d567-463e-a021-5c1fab1d185d" />
+
 
 ok tuy không RCE được nhưng với output trả về thì chắc chắc là nó dính CVE
 
 tiếp đến hãy thử LFI
-![alt text](image-46.png)
+<img width="2121" height="866" alt="image-46" src="https://github.com/user-attachments/assets/85968827-f826-4f9e-bf54-dbcb9fd83797" />
+
 
 tuyệt vời ta đã lấy được phần đầu tiên sau khi decode base64:
 ```HUTECHCTF{Finally_you```
@@ -191,15 +197,19 @@ tool mình dùng là gobuster([help](https://www.kali.org/tools/gobuster/)), mì
 gobuster dir -u http://localhost:10000/cgi-bin/.%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/ -w /usr/share/wordlists/seclists/Fuzzing/LFI/LFI-etc-files-of-all-linux-packages.txt
 ```
 
-![alt text](image-47.png)
+<img width="2569" height="1159" alt="image-47" src="https://github.com/user-attachments/assets/2f96bf63-0ce2-4983-abfa-9f8e8a0966c6" />
+
 có rất nhiều file trả về 200 và mình thử từng cái và part 2 là
-![alt text](image-48.png)
+<img width="1796" height="668" alt="image-48" src="https://github.com/user-attachments/assets/af348253-64d3-411a-a422-4326fd9f22d1" />
+
 Part 2: ```_can_find_flag_```
 
 part cuối là:
-![alt text](image-49.png)
+<img width="1837" height="672" alt="image-49" src="https://github.com/user-attachments/assets/ce3dd511-a79e-4b10-91cc-180082fc20e4" />
+
 Part 3: ```hahaahahahahaha!}```
 
 Problem solved: ```HUTECHCTF{Finally_you_can_find_flag_hahaahahahahaha!}```
+
 
 
