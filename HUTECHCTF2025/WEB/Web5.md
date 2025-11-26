@@ -1,4 +1,4 @@
-# SAFE WEB
+# SAFE WEB (BOUNTY 100k)
 <img width="2795" height="1185" alt="image-41" src="https://github.com/user-attachments/assets/73eaaf5e-c81e-4539-8c56-82bb22819fa3" />
 
 
@@ -8,7 +8,7 @@ Ban đầu mình cũng không tin và test nát cái trang này nhưng đúng l�
 ### Solution
 - thật ra 1 host có thể có nhiều port khác nhau, nếu như trang web với host và port như hiện tại không có lỗ hỏng, biết đâu trên port khác của cái host này nó có lổ hỏng thì sao vậy chúng ta phải đi kiếm ```New attack surface```(bề mặt tấn công mới)
 
-mình sẽ dùng nmap([text](https://nmap.org/)) để tra xem có port nào đang mở:
+mình sẽ dùng nmap([tool](https://nmap.org/)) để tra xem có port nào đang mở:
 
 mình dùng: ```nmap -sV -O -T4 localhost -p 0-11000```
 ```
@@ -36,7 +36,7 @@ tiếp theo mình thử research port của trang web này là 10000 và xem có
 Ôi mình thấy cả CVE([CVE](https://github.com/blackn0te/Apache-HTTP-Server-2.4.49-2.4.50-Path-Traversal-Remote-Code-Execution)) cho cái port này 
 Vậy nó có thể dính CVE-2021-41773 & CVE-2021-42013
 
-thử trang web trên chúng ta được 1 script python để khai thác như sau:
+đọc trên trang ấy chúng ta được 1 script python để khai thác như sau:
 ```
 # !/usr/bin/python3
 # Author: Ravin | Blacknote
@@ -199,7 +199,7 @@ gobuster dir -u http://localhost:10000/cgi-bin/.%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/
 
 <img width="2569" height="1159" alt="image-47" src="https://github.com/user-attachments/assets/2f96bf63-0ce2-4983-abfa-9f8e8a0966c6" />
 
-có rất nhiều file trả về 200 và mình thử từng cái và part 2 là
+có rất nhiều file trả về 200 và mình thử từng cái với part 2 là
 <img width="1796" height="668" alt="image-48" src="https://github.com/user-attachments/assets/af348253-64d3-411a-a422-4326fd9f22d1" />
 
 Part 2: ```_can_find_flag_```
@@ -210,6 +210,7 @@ part cuối là:
 Part 3: ```hahaahahahahaha!}```
 
 Problem solved: ```HUTECHCTF{Finally_you_can_find_flag_hahaahahahahaha!}```
+
 
 
 
