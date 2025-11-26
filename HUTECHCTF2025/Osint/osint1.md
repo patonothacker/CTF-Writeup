@@ -15,13 +15,14 @@ Khi nhìn vào ảnh lần đầu và zoom bự ra tuy là hơi khó nhìn nhưn
 
 thử tra trên google thì đúng là có tên này thật sau đó check ảnh và video có 1 vài video có cái li nhựa với dòng chữ rất giống ảnh đề cho
 
+<img width="513" height="742" alt="ảnh" src="https://github.com/user-attachments/assets/ca310884-d3c5-44f3-9f08-27172bcf28d1" />
 
 
 
 
 <img width="622" height="646" alt="ảnh" src="https://github.com/user-attachments/assets/07113d14-a4db-4e95-9126-6b9e711aac89" />
 
-=> Từ tấm hình li nhựa này thì không còn nghi ngờ gì nữa tên quán caffe này là ```QQ Coffee & ```
+=> Từ tấm hình li nhựa này thì không còn nghi ngờ gì nữa tên quán caffe này là ```QQ Coffee & Tea ```
 
 
 Tiếp đến hãy cùng kiếm tên nhân viên
