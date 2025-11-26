@@ -3,7 +3,7 @@
 
 <img width="796" height="267" alt="ảnh" src="https://github.com/user-attachments/assets/b9dbe016-68a6-4421-a080-fbec4e9801c4" />
 
-Đầu tiên mình đọc đoạn trên và đoán ra được con quái vật khổng lồ đang ngủ say đó là: ```CAESAR``` và cùng có một đoạn cipher rất nổi tiếng là ```Caesar Cipher```([Caesar la gi?](https://vi.wikipedia.org/wiki/M%E1%BA%ADt_m%C3%A3_Caesar)) 
+Đầu tiên mình đọc đoạn trên và đoán ra được con quái vật khổng lồ đang ngủ say đó là: ```CAESAR``` và cũng có một đoạn cipher rất nổi tiếng là ```Caesar Cipher```([Caesar la gi?](https://vi.wikipedia.org/wiki/M%E1%BA%ADt_m%C3%A3_Caesar)) 
 
 Sau đó mình dùng tool để decrypt ```Caesar``` [Tool decrypt](https://www.dcode.fr/caesar-cipher), của đoạn mã ```zxk_vlr_mixv_dxjb_xka_zebzh_jb_qefp_fp_jv_molcfib_kxjb_:QrfHvZrz71390906```
 mình ra được kết quả:
