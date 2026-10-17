@@ -151,7 +151,6 @@ sau khi input là ls -al, và gọi hàm system thông qua hàm `call_user_func`
 
 ![image](images/image14.png)
 
-đọc thêm tại 
 
 ## Meme
 
