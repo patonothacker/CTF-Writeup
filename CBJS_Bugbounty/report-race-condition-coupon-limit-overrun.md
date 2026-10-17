@@ -5,7 +5,7 @@
 ## Summary
 
 - **Title:** Race Condition (TOCTOU) tại `POST /api/member/checkout` cho phép bypass giới hạn số lượt sử dụng của Coupon (Limit Overrun)
-- **Severity:** High
+- **Severity:** Medium
 - **Affected asset / URL:**
   - Endpoint thanh toán: `POST http://brewcart.cyberjutsu-lab.tech/api/member/checkout`
   - Quản lý mã giảm giá (Admin): `http://admin.brewcart.cyberjutsu-lab.tech/coupons`
