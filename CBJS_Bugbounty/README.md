@@ -1,6 +1,6 @@
 # CyberJutsu Bug Bounty - BrewCart 🎯
 
-> Tổng hợp các báo cáo lỗ hổng bảo mật thực tế được phát hiện trên hệ thống thương mại điện tử **BrewCart**. Đây là một game do CyberJutsu dựng lại để các học viên thi nhau săn bug và có bounty (bounty trên hình chỉ là mô phỏng, không phải thực tế), và mình may mắn đạt được **Top 1**.
+> Tổng hợp các báo cáo lỗ hổng bảo mật thực tế được phát hiện trên hệ thống **BrewCart**. Đây là một game do CyberJutsu dựng lại để các học viên thi nhau săn bug và có bounty (bounty trên hình chỉ là mô phỏng, không phải thực tế), và mình may mắn đạt được **Top 1**.
 
 ![Scoreboard](images/scoreboard.png)
 
