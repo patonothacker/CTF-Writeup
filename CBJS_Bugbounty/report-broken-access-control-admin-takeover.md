@@ -26,19 +26,19 @@
 
 ### Evidence
 
-**Ảnh 1 — Tài khoản customer truy cập trái phép `/api/admin/customers`, làm lộ thông tin tài khoản Admin**
+**Ảnh 1. Tài khoản customer truy cập trái phép `/api/admin/customers`, làm lộ thông tin tài khoản Admin**
 
 ![Customer account can access /api/admin/customers and disclose the Admin account](images/report-broken-access-control-admin-takeover/1.png)
 
-**Ảnh 2 — Đăng nhập thành công vào tài khoản Admin với thông tin xác thực đã xác định trên `brewcart.cyberjutsu-lab.tech`**
+**Ảnh 2. Đăng nhập thành công vào tài khoản Admin với thông tin xác thực đã xác định trên `brewcart.cyberjutsu-lab.tech`**
 
 ![Successful authentication as manager admin account](images/report-broken-access-control-admin-takeover/2.png)
 
-**Ảnh 3 — Server cấp session Admin riêng và redirect tới trang quản trị trên `admin.brewcart.cyberjutsu-lab.tech`**
+**Ảnh 3. Server cấp session Admin riêng và redirect tới trang quản trị trên `admin.brewcart.cyberjutsu-lab.tech`**
 
 ![Admin authentication returns admin session and redirects to admin interface](images/report-broken-access-control-admin-takeover/3.png)
 
-**Ảnh 4 — Xác nhận Account Takeover: truy cập thành công giao diện quản trị với quyền `QUẢN TRỊ`**
+**Ảnh 4. Xác nhận Account Takeover: truy cập thành công giao diện quản trị với quyền `QUẢN TRỊ`**
 
 ![Successful Admin Account Takeover with access to BrewCart administration dashboard](images/report-broken-access-control-admin-takeover/4.png)
 
