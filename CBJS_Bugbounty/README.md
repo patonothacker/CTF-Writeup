@@ -11,7 +11,7 @@
 Thư mục này lưu trữ các báo cáo chi tiết về những lỗ hổng từ mức độ **Medium** đến **Critical** được khai thác trên ứng dụng web BrewCart và cổng quản trị Admin.
 
 - **Mục tiêu thử nghiệm:**
-  - Web Client: `http://*.cyberjutsu-lab.tech`
+  - Web Client: `http://*.brewcart.cyberjutsu-lab.tech`
 
 ---
 
