@@ -10,7 +10,7 @@
 
 Thư mục này lưu trữ lời giải, flow tư duy khai thác và source code/script minh họa cho toàn bộ các bài CTF qua 4 tuần thi đấu của CyberJutsu League Season 1, trải dài từ Web Exploitation, Cryptography cho đến Binary Exploitation (Pwn).
 
-👉 **[Đọc toàn bộ Writeup chi tiết tại đây](./Writeup.md)**
+👉 **[READ ME](./Writeup.md)**
 
 ---
 
